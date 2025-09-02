@@ -1,15 +1,25 @@
 // ##################################################################
-//                        Groups definition
+//                       Groups definition
 // ##################################################################
 
 GROUP:NO_JETWAY:B4*:CRJ*:E14*:MD9*:RJ*
 
+// ##################################################################
+//                       Virtual Airline
+// ##################################################################
+
+// FLY ITA
+STANDLIST:LIRF:FYI:100:204,205,206,207,208,209,210
+STANDLIST:LIMC:FYI:100:601,602,603,604,605,606,607,608,609,610,611,612
+
+// AIR MALPI
+STANDLIST:LIMC:MLP:100:651,652,653,654
+STANDLIST:LIMC:MLP:20:661,662
+STANDLIST:LIMC:MLP:5:621,622,623,624,625
 
 // ##################################################################
-//                        STANDS DEFINITION
+//                       AIRPORT DEFINITION
 // ##################################################################
-
-
 // ##################################################################
 //                      Crotone - LIBC
 // ##################################################################
@@ -792,7 +802,6 @@ USE:I
 STANDLIST:LICJ:RYR:3:106,107,108,109,111,113,301,302,303,304,305,306
 STANDLIST:LICJ:ITY:3:207,209,210,211,212,213,215,216,217,219,220
 
-
 // 101
 STAND:LICJ:101:N038.10.57.540:E013.05.55.840:30
 USE:ABCMT
@@ -1215,15 +1224,11 @@ STAND:LICJ:313:N038.11.09.590:E013.06.45.920:25
 USE:H
 ENGINETYPE:JPTE
 
-
-
-
 // ##################################################################
 //                        Cagliari - LIEE
 // ##################################################################
 
 STANDLIST:LIEE:MSA:3:20
-
 
 // 01
 STAND:LIEE:01:N039.15.11.230:E009.03.29.310:20
@@ -2403,16 +2408,13 @@ PRIORITY:0
 WINGSPAN:16.00
 LENGTH:14.40
 
-
-
-
 // ##################################################################
 //                        Malpensa - LIMC
 // ##################################################################
 
 GROUP:MXP4xx:AAL:ABN:ACA:AHY:AIC:AIZ:ANA:AZA:BAW:CCA:CES:CPA:CHH:CYP:DAL:DJT:ELY:ETD:ETH:EVA:FIA:FIE:GFA:ITY:LBT:LIL:KAC:KAL:KNE:MEA:MSC:MSR:NOS:NMA:OMA:RZO:QTR:RAM:RJA:RYR:SIA:SVA:SXS:TAM:TAR:THA:THY:TUA:UAE:UAL:UZB:WZZ:WMT
 GROUP:MXP5xx:AAL:ABN:ACA:AEA:AHY:AIC:AIZ:ANA:ASL:AZA:BAW:CCA:CES:CFG:CHH:CPA:CYP:DAH:DAL:DJT:EIN:ETD:ETH:EVA:FIA:FIE:ISR:ITY:LBT:KAC:KAL:KNE:MEA:MSC:MSR:NMA:NOS:OMA:QTR:RAM:RJA:RYR:RZO:SVA:SXS:TAM:TAR:THA:THY:TUA:UAL:UZB:VLG:WZZ:WMT
-GROUP:MXP6xx:AEA:AEZ:AFR:ASL:AUA:AZA:BEL:BTI:CFG:DAH:DLA:DLH:EIN:EWG:IBE:ICE:ITY:LOT:LZB:NOS:NOZ:NSZ:RYR:SAS:SEH:SWR:TAP:TVF:VLG:WZZ:WMT
+GROUP:MXP6xx:AEA:AEZ:AFR:ASL:AUA:AZA:BEL:BTI:CFG:DAH:DLA:DLH:EIN:EWG:FYI:IBE:ICE:ITY:LOT:LZB:NOS:NOZ:NSZ:RYR:SAS:SEH:SWR:TAP:TVF:VLG:WZZ:WMT
 GROUP:MXP8xx:BCS:DHK:DHX:FDX:GTI:NCA
 
 // AMAZON AIR
@@ -2466,14 +2468,6 @@ STANDLIST:LIMC:MSA:2:757,758,759,760,761,762,763,764,791,792,793
 
 // EMIRATES
 STANDLIST:LIMC:UAE:100:499,495
-
-
-////////////////// VIRTUAL AIRLINES ///////////////////////////
-
-// AIR MALPI
-STANDLIST:LIMC:MLP:100:651,652,653,654
-STANDLIST:LIMC:MLP:20:661,662
-STANDLIST:LIMC:MLP:5:621,622,623,624,625
 
 //////////// STANDS ////////////////////
 
@@ -7739,7 +7733,7 @@ STANDLIST:LIRF:LZB:100:221,222,223,224,225,226,227,228,229,230,231,232,233,234,2
 // SKYALPS
 STANDLIST:LIRF:SWU:100:221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238
 
-
+// ####################################################################################################
 // 101
 STAND:LIRF:101:N041.48.16.030:E012.16.19.450:15
 USE:C
@@ -10544,5 +10538,8 @@ ENGINETYPE:JT
 CODE:D
 PRIORITY:+1
 WINGSPAN:51.00
+
+
+
 
 
